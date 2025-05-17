@@ -1,4 +1,4 @@
-1 Synopsis
+1. Synopsis
 
 DISPLAY is a compact .COM program designed for viewing text files within any
 MS-DOS environment. It displays the contents of text files in a scrollable
@@ -9,7 +9,7 @@ This program is lightweight, occupying less than 1 KB of disk space.
 DISPLAY is intended to be used on distribution media for MS-DOS software, or
 as part of software packages.
 
-2 Usage
+2. Usage
 
 To view a text file, type:
   display.com <file.ext>
@@ -39,7 +39,7 @@ at once. The Up/Down keys scroll the text line by line.
 
 To exit the program, press the Escape (ESC) key.
 
-4 File Size Constraints
+4. File Size Constraints
 
 The file passed as the commandline parameter must not exceed 62 KB in size.
 If the file is larger, only the first 62 KB will be displayed. In addition,
@@ -47,7 +47,7 @@ a red background in the program header indicates that the file has been
 truncated. If the file is fully displayed, the program header will appear
 with a blue background.
 
-5 Legal Mentions
+5. Legal Mentions
 
 This program is furnished under the GNU General Public License v3.0 license
 agreement. In addition, the complete source code is available on GitHub at:
